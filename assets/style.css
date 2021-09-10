@@ -1,3 +1,7 @@
+body {
+    background-color: lightblue;
+}
+
 header {
     padding: 20px 35px;
     background-color: rgb(161, 161, 161);
@@ -6,33 +10,96 @@ header {
     flex-wrap: wrap;
 }
 
-img {
-    height: 200px;
-    width: 300px;
+header nav {
+    margin: 7px 0;
+}
+/* Display nav horizontally*/
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;;
+}
+
+.img {
+    height: 300px;
+    width: 398px;
+    max-width: 100%;
+    max-height: 100%;
+    flex-wrap: wrap;
 }
 
 .aboutMe {
     display: flex;
     padding: 5%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .myWork {
     display: flex;
     padding: 5%;
+    justify-content: space-between;
+
 }
 
 .contactMe {
     display: flex;
     padding: 5%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Spaces sections correctly */
 .spacing {
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 /* Changes first image size */
 .customIMG {
     height: 500px;
-    width: 908px;
+    width: 1200px;
+    max-width: 100%;
+    max-height: 100%;
+    flex-wrap: wrap;
 }
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+
+    img {
+        flex: 0 70%;
+        justify-content: center;
+    }

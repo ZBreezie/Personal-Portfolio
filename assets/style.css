@@ -4,9 +4,35 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    top: 0;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.aboutMe {
+    display: flex;
+    padding: 5%;
+}
+
+.myWork {
+    display: flex;
+    padding: 5%;
+}
+
+.contactMe {
+    display: flex;
+    padding: 5%;
+}
+
+/* Spaces sections correctly */
+.spacing {
+    margin-left: 5%;
+}
+
+/* Changes first image size */
+.customIMG {
+    height: 500px;
+    width: 908px;
 }

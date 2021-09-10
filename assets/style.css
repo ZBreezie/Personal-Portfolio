@@ -1,0 +1,12 @@
+header {
+    padding: 20px 35px;
+    background-color: rgb(161, 161, 161);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}

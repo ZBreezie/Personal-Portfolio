@@ -28,13 +28,6 @@ header nav ul li a {
     font-size: 1.55vw;;
 }
 
-.img {
-    max-height: 300px;
-    width: 49%;
-    flex-wrap: wrap;
-    border: 3px solid #555;
-}
-
 .aboutMe {
     display: flex;
     padding: 5%;
@@ -45,7 +38,7 @@ header nav ul li a {
 .myWork {
     display: flex;
     padding: 5%;
-    justify-content: space-between;
+    width: 80%;
 
 }
 
@@ -70,6 +63,15 @@ header nav ul li a {
     border: 5px solid #555;
 }
 
+.img {
+    max-height: 300px;
+    width: 49%;
+    flex-wrap: wrap;
+    border: 3px solid #555;
+    justify-content: center;
+}
+
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +80,7 @@ footer {
     list-style: none;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1155px) {
     header {
       padding-bottom: 0;
       justify-content: center;
@@ -100,7 +102,7 @@ footer {
     }
 
     .img {
-        width: 80%;
+        width: 100%;
         height: auto;
         max-height: 300px;
         flex-wrap: wrap;

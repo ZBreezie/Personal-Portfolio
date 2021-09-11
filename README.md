@@ -9,7 +9,7 @@ An exercise in creating a basic html and CSS page!
 ## Website
 https://zbreezie.github.io/Personal-Portfolio
 
-![](portpic.png)
+![](portfoliopic.png)
 
 ## Contribution
 Made with ❤️ by Zachary McCollum
